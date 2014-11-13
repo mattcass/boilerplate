@@ -1,7 +1,9 @@
 Boilerplate
 ===========
 Boilerplate for your projects made with [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/), [jQuery](http://jquery.com//)
+
 Developed by [Matt Cass](http://matthewcasserly.com/).
+
 Inspiration & Heavy lifting by [zerosixthree](http://zerosixthree.se/).
 
 Requirements
@@ -31,15 +33,14 @@ There is currently one Gulp task; `gulp`
 `gulp` is the default task and will concatenate and minify all Javascript files in to
 `dist/js/script.min.js`. The task will also concatenate all Sass files into
 `dist/css/style.css` and also run autoprefixer on the outputted CSS file to
-ensure all the correct vendor prefixes are included. `gulp` also uses the
+ensure all the correct vendor prefixes are included. `gulp` uses the
 `gulp watch` task, so it automatically runs every time a JS/Sass file changes.
 
 `gulp` also runs a local server on your machine and automatically reloads your
 browser any time there is a change to html, css, or js `dist` files.
 
-[server](file:///Users/yourusername/path/to/project/index.html)
-
 Folder structure
 -------------
 
-The development will be done in `source/js/` and `source/scss/` which then will be compiled/concatinated/minified into `dist/js` and `dist/css`.
+The development will be done in `source/js/` and `source/scss/` which then will
+be compiled/concatinated/minified into `dist/js` and `dist/css` accordingly.
