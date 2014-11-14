@@ -25,7 +25,8 @@ cd path/to/project
 npm install
 ```
 
-Step 4. All done!
+Step 4. Done!
+
 Gulp tasks
 -------------
 There is currently one Gulp task; `gulp`
@@ -41,6 +42,5 @@ browser any time there is a change to html, css, or js `dist` files.
 
 Folder structure
 -------------
-
 The development will be done in `source/js/` and `source/scss/` which then will
 be compiled/concatinated/minified into `dist/js` and `dist/css` accordingly.
