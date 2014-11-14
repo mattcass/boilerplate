@@ -22,7 +22,7 @@ var server          = lr();
 // JS Sources
     var javascript = ['./source/js/*.js'];
 
-// Compile SASS
+// Compile JavaScript
     gulp.task('js', function() {
         return gulp.src(javascript)
             .pipe(uglify())
