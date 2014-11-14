@@ -1,13 +1,14 @@
 {
     "name": "boilerplate",
-    "version": "1.0.0",
     "description": "Streamlined project creation",
+    "version": "1.0.0",
     "repository" : { 
-        "type" : "git", 
-        "url" : "https://github.com/mattcass/boilerplate"
-    }
+    "type" : "git", 
+    "url" : "https://github.com/mattcass/boilerplate"
+    },
     "author": {
-    "name": "Matthew Casserly"
+    "name": "Matthew Casserly",
+    "url": "http://www.matthewcasserly.com"
     },
     "devDependencies": {
         "gulp": "^3.8.10",
