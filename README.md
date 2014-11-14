@@ -1,9 +1,6 @@
 Boilerplate
 ===========
 Boilerplate for your projects made with [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/), [jQuery](http://jquery.com//)
-
-Developed by [Matt Cass](http://matthewcasserly.com/).
-
 Inspiration & Heavy lifting by [zerosixthree](http://zerosixthree.se/).
 
 Requirements
