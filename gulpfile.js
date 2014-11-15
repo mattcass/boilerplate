@@ -10,6 +10,7 @@ var server          = lr();
 
  // SCSS Sources
     var scss = ['./source/sass/*.scss'];
+    var modules = ['./source/sass/**/*.scss'];
 
 // Compile SASS
     gulp.task('sass', function() {
@@ -33,7 +34,7 @@ var server          = lr();
 // Watch for changes
     gulp.task('watch', function() {
         var server = livereload();
-        gulp.watch(scss, ['sass']);
+        gulp.watch(modules, ['sass']);
         gulp.watch(javascript, ['js']);
         gulp.watch(['./dist/css/*.css', './dist/js/*.js', './*.html'], function(e) {
             server.changed(e.path);
