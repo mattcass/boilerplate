@@ -1,5 +1,3 @@
-Boilerplate
-===========
 Boilerplate for your projects made with [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/), [jQuery](http://jquery.com//)
 
 Inspiration & Heavy lifting by [zerosixthree](http://zerosixthree.se/).
