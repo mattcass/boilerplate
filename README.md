@@ -36,7 +36,7 @@ ensure all the correct vendor prefixes are included. `gulp` uses the
 `gulp watch` task, so it automatically runs every time a JS/Sass file changes.
 
 `gulp` also runs a local server on your machine and automatically reloads your
-browser any time there is a change to html, css, or js `dist` files.
+browser any time there is a change to an html file, or css and js `dist` files.
 
 Folder structure
 -------------
