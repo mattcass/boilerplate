@@ -1,0 +1,77 @@
+/* ===========================================
+   Site typography
+   =========================================== */
+
+/* #TYPOGRAPHY HEADINGS
+================================================== */
+h1, h2, h3, h4, h5 {
+	color: $color-black;
+	font: 2em/1.2em "Vollkorn", georgia, sans-serif;
+    font-weight: 400;
+}
+
+h1 { 
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.3em; 
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+/*
+   Paragraphs, links and combined
+   ==================================== */
+
+a {
+    text-decoration: none;
+	color: $color-black;
+}
+
+a:hover {
+	color: $color-black;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+/*
+   Separate elements
+   ==================================== */
+
+strong {
+  font-weight: bold;
+  line-height: 1;
+}
+
+em {
+  font-style: italic;
+  font-size: 1em;
+  color: #989898;
+  color: rgba(0,0,0,0.5)
+}
+
+i {} 
+
+time {} 
+
+hr {}
