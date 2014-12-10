@@ -1,14 +1,14 @@
-/* ===========================================
-   Site typography
+/* Site typography
    =========================================== */
 
 
-/* #TYPOGRAPHY HEADINGS
+
+
+/* Typography headings
 ================================================== */
 h1, h2, h3, h4, h5 {
-	color: $color-black;
+	color: $black;
 	font: 2em/1.2em "", georgia, sans-serif;
-    font-weight: 400;
 }
 
 h1 { 
@@ -32,28 +32,23 @@ h5 {
 	font-size: 1.2em;
 }
 
-small {
-    font-size: 0.7em;
-}
-
 /*
    Paragraphs, links and combined
    ==================================== */
 
 a {
     text-decoration: none;
-	color: $color-black;
+	color: $black;
 }
 
 a:hover {
-	color: $color-black;
+	color: $black;
     text-decoration: underline;
 }
 
 p {
     margin-bottom: 1em;
 }
-
 
 /*
    Separate elements
@@ -71,8 +66,6 @@ em {
   color: rgba(0,0,0,0.5)
 }
 
-i {} 
-
-time {} 
-
-hr {}
+small {
+    font-size: 0.7em;
+}
