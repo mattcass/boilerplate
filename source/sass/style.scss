@@ -1,22 +1,17 @@
-/* ====================================
-   Helpers
-   ==================================== */
 
+/* Helpers
+   ==================================== */
 @import 'helpers/reset';
-@import 'helpers/global-classes';
 @import 'helpers/colors';
 @import 'helpers/mixins';
 
-/* ====================================
-   Foundation
+/* Foundation
    ==================================== */
 
-@import 'foundation/base';
 @import 'foundation/grid';
 @import 'foundation/typography';
 
-/* ====================================
-   Components
+/* Components
    ==================================== */
 
 @import 'components/buttons';
@@ -24,17 +19,12 @@
 @import 'components/media';
 @import 'components/forms';
 
-/* ====================================
-   Layout
+/* Layout
    ==================================== */
 
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/main';
 @import 'layout/footer';
-
-/* ====================================
-   Pages
-   ==================================== */
 
 
