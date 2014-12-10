@@ -404,6 +404,68 @@ body {
   font: normal 110%/1.7em "oxygen", georgia, serif;
   word-wrap: break-word; }
 
+ner {
+  width: 87%;
+  margin-left: 6.5%;
+  height: auto; }
+
+.content {
+  clear: both;
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5%;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 1%; }
+  @media only screen and (max-width: 1200px) {
+    .content {
+      width: 70%;
+      margin-left: 15%; } }
+  @media only screen and (max-width: 1000px) {
+    .content {
+      width: 80%;
+      margin-left: 10%; } }
+  @media only screen and (max-width: 600px) {
+    .content {
+      width: 100%;
+      margin-left: 0%; } }
+
+.half {
+  float: left;
+  width: 50%; }
+  @media only screen and (max-width: 959px) {
+    .half {
+      width: 100%; } }
+
+.quarter {
+  float: left;
+  width: 25%; }
+  @media only screen and (max-width: 959px) {
+    .quarter {
+      float: left;
+      width: 100%; } }
+
+.one {
+  float: left;
+  width: 33.3%; }
+  @media only screen and (max-width: 959px) {
+    .one {
+      float: left;
+      width: 100%; } }
+
+.two {
+  float: left;
+  width: 66.66%; }
+  @media only screen and (max-width: 959px) {
+    .two {
+      float: left;
+      width: 100%; } }
+
+.three {
+  float: left;
+  width: 100%; }
+  @media only screen and (max-width: 959px) { }
+
 /* ===========================================
    Site typography
    =========================================== */
