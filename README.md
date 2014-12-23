@@ -31,9 +31,13 @@ There is currently one Gulp task; `gulp`
 
 `gulp` is the default task and will concatenate and minify all Javascript files in to
 `dist/js/script.min.js`. The task will also concatenate all Sass files into
-`dist/css/style.css` and also run autoprefixer on the outputted CSS file to
+`dist/css/style.css` and run autoprefixer on the outputted CSS file to
 ensure all the correct vendor prefixes are included. `gulp` uses the
 `gulp watch` task, so it automatically runs every time a JS/Sass file changes.
+
+Using `gulp-plubmer` and `beepbeep` the terminal will beep to alert you  anytime
+there is a JavaScript or SASS error and log the error in the console without
+interupting the stream. 
 
 `gulp` also runs a local server on your machine and automatically reloads your
 browser any time there is a change to an html file, or css and js `dist` files.
