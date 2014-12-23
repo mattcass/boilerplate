@@ -45,7 +45,6 @@ var lr              = require('tiny-lr');
 
 // Watch for changes and reload server
     var server = lr();
-
     gulp.task('watch', function() {
         var server = livereload();
         gulp.watch(modules, ['sass']);
