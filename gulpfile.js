@@ -44,7 +44,7 @@ var lr              = require('tiny-lr');
     });
 
 // Watch for changes and reload server
-    var server          = lr();
+    var server = lr();
 
     gulp.task('watch', function() {
         var server = livereload();
