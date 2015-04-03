@@ -1,71 +1,44 @@
 /* Site typography
    =========================================== */
 
-
-
-
-/* Typography headings
-================================================== */
-h1, h2, h3, h4, h5 {
-	color: $black;
-	font: 2em/1.2em "", georgia, sans-serif;
+body  { 
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1 { 
-    font-size: 2.4em;
-    font-weight: 700;
+html  {   
+  font: 100%/1.5 georgia, sans-serif;      
 }
 
-h2 {
-	font-size: 1.75em;
+h1      { font-size: 2em;       /* 2*16 = 32 */         }
+h2      { font-size: 1.5em;     /* 1.5*16 = 24 */       }
+h3      { font-size: 1.17em;    /* 1.17*16 = 18.72 */   }
+h4      { font-size: 1em;       /* 1*16 = 16 */         }
+h5      { font-size: 0.83em;    /* 0.83*16 = 13.28 */   }
+h6      { font-size: 0.75em;    /* 0.75*16 = 12 */      }
+
+p       {   line-height: 1.5; margin: 0 0 1em;          }
+strong  {   font-weight: bold;  }
+em      {   font-style: italic; }
+
+a,
+a:visited   {   text-decoration: underline; }
+ 
+a:hover     {   text-decoration: none; }
+a:active    {   color: tomato;      }
+a:focus     {   border: 1px dotted tomato; }
+
+code,
+pre     { font-family: monospace, serif; font-size: 1em; }
+
+blockquote {
+  font-style: italic; 
+  border-left: 2px solid tomato; 
+  padding-left: 10px; 
 }
 
-h3 {
-	font-size: 1.4em;
-}
-
-h4 {
-	font-size: 1.3em; 
-}
-
-h5 {
-	font-size: 1.2em;
-}
-
-/*
-   Paragraphs, links and combined
-   ==================================== */
-
-a {
-    text-decoration: none;
-	color: $black;
-}
-
-a:hover {
-	color: $black;
-    text-decoration: underline;
-}
-
-p {
-    margin-bottom: 1em;
-}
-
-/*
-   Separate elements
-   ==================================== */
-
-strong {
-  font-weight: bold;
-  line-height: 1;
-}
-
-em {
-  font-style: italic;
-  font-size: 1em;
-  color: #989898;
-  color: rgba(0,0,0,0.5)
-}
-
-small {
-    font-size: 0.7em;
+blockquote:before { 
+  content: "\201C"; 
+  display: inline-block; 
+  padding-: .4em; 
 }

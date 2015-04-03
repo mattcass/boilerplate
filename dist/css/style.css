@@ -139,93 +139,132 @@ ul {
    ==================================== */
 /* Foundation
    ==================================== */
-.container {
-  width: 87%;
-  margin-left: 6.5%;
-  height: auto; }
+.row {
+  margin-bottom: 1.25em; }
 
-.content {
-  clear: both;
-  width: 50%;
-  margin-left: 25%;
-  padding-bottom: 5%;
-  height: auto;
-  padding-left: 1%;
-  padding-right: 1%; }
-
-.half {
+.row > [class^="w-"] {
   float: left;
-  width: 50%; }
+  margin-bottom: 0;
+  min-height: 1px;
+  position: relative; }
 
-.quarter {
-  float: left;
+.row > [class^="w-"].float-right {
+  float: right; }
+
+.w-10 {
+  width: 10%; }
+
+.w-20 {
+  width: 20%; }
+
+.w-25 {
   width: 25%; }
 
-.one {
-  float: left;
-  width: 33.3%; }
+.w-30 {
+  width: 30%; }
 
-.two {
-  float: left;
-  width: 66.66%; }
+.w-40 {
+  width: 40%; }
 
-.three {
-  float: left;
+.w-50 {
+  width: 50%; }
+
+.w-60 {
+  width: 60%; }
+
+.w-70 {
+  width: 70%; }
+
+.w-75 {
+  width: 75%; }
+
+.w-80 {
+  width: 80%; }
+
+.w-90 {
+  width: 90%; }
+
+.w-100 {
   width: 100%; }
+
+.w-33 {
+  width: 33.33333%; }
+
+.w-66 {
+  width: 66.66667%; }
+
+@media screen and (max-width: 48.125em) {
+  [class*="w-"]:not(.w-force) {
+    width: 100%; } }
 
 /* Site typography
    =========================================== */
-/* Typography headings
-================================================== */
-h1, h2, h3, h4, h5 {
-  color: #000000;
-  font: 2em/1.2em "", georgia, sans-serif; }
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+html {
+  font: 100%/1.5 georgia, sans-serif; }
 
 h1 {
-  font-size: 2.4em;
-  font-weight: 700; }
+  font-size: 2em;
+  /* 2*16 = 32 */ }
 
 h2 {
-  font-size: 1.75em; }
+  font-size: 1.5em;
+  /* 1.5*16 = 24 */ }
 
 h3 {
-  font-size: 1.4em; }
+  font-size: 1.17em;
+  /* 1.17*16 = 18.72 */ }
 
 h4 {
-  font-size: 1.3em; }
+  font-size: 1em;
+  /* 1*16 = 16 */ }
 
 h5 {
-  font-size: 1.2em; }
+  font-size: 0.83em;
+  /* 0.83*16 = 13.28 */ }
 
-/*
-   Paragraphs, links and combined
-   ==================================== */
-a {
-  text-decoration: none;
-  color: #000000; }
-
-a:hover {
-  color: #000000;
-  text-decoration: underline; }
+h6 {
+  font-size: 0.75em;
+  /* 0.75*16 = 12 */ }
 
 p {
-  margin-bottom: 1em; }
+  line-height: 1.5;
+  margin: 0 0 1em; }
 
-/*
-   Separate elements
-   ==================================== */
 strong {
-  font-weight: bold;
-  line-height: 1; }
+  font-weight: bold; }
 
 em {
-  font-style: italic;
-  font-size: 1em;
-  color: #989898;
-  color: rgba(0, 0, 0, 0.5); }
+  font-style: italic; }
 
-small {
-  font-size: 0.7em; }
+a, a:visited {
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  color: tomato; }
+
+a:focus {
+  border: 1px dotted tomato; }
+
+code, pre {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+blockquote {
+  font-style: italic;
+  border-left: 2px solid tomato;
+  padding-left: 10px; }
+
+blockquote:before {
+  content: "\201C";
+  display: inline-block;
+  padding-: .4em; }
 
 /* Components
    ==================================== */
@@ -241,10 +280,9 @@ small {
 .button-primary {
   background: #f22b11;
   color: #ffe37a;
-  -webkit-transition: background 0.25s;
-          transition: background 0.25s; }
+  transition: background 0.25s; }
   .button-primary .button-primary:hover {
-    background: #dd210c; }
+    background: #dd240c; }
 
 /* ===========================================
    List styling (ul, ol, dl)
@@ -280,6 +318,10 @@ header {
 /* ===========================================
    Main Styling 
    =========================================== */
+.row > [class^="w-"] {
+  border: 1px solid tomato;
+  margin-bottom: 1em; }
+
 /* ===========================================
    Footer styling
    =========================================== */
