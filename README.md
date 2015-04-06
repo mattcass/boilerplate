@@ -35,12 +35,11 @@ There is currently one Gulp task; `gulp`
 ensure all the correct vendor prefixes are included. `gulp` uses the
 `gulp watch` task, so it automatically runs every time a JS/Sass file changes.
 
-Using `gulp-plubmer` and `beepbeep` the terminal will beep to alert you  anytime
-there is a JavaScript or SASS error and log the error in the console without
-interupting the stream. 
+Using `gulp-plubmer` and `beepbeep` the terminal will beep to alert you anytime
+there is a JavaScript or SASS error and log the error in the console.
 
-`gulp` also runs a local server on your machine and automatically reloads your
-browser any time there is a change to an html file, or css and js `dist` files.
+There is also a liverelaod script built in that automatically reloads your
+browser any time there is a change to an html file, or the css and js `dist` files.
 
 Folder structure
 -------------
