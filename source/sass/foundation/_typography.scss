@@ -2,13 +2,13 @@
    =========================================== */
 
 body  { 
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    }
 
 html  {   
-  font: 100%/1.5 georgia, sans-serif;      
-}
+    font: 100%/1.5 georgia, sans-serif;      
+    }
 
 h1      { font-size: 2em;       /* 2*16 = 32 */         }
 h2      { font-size: 1.5em;     /* 1.5*16 = 24 */       }
@@ -21,9 +21,20 @@ p       {   line-height: 1.5; margin: 0 0 1em;          }
 strong  {   font-weight: bold;                          }
 em      {   font-style: italic;                         }
 
-a,
-a:visited   {   text-decoration: underline; }
- 
+a {
+    transition: $base_transition;
+    font-weight: normal;
+    text-decoration: underline;
+
+    &:hover {
+        color: $color_black;
+        }
+    }
+
+.a--clean {
+    text-decoration: none;
+    } 
+
 a:hover     {   text-decoration: none; }
 a:active    {   color: tomato;      }
 a:focus     {   border: 1px dotted tomato; }
@@ -32,13 +43,13 @@ code,
 pre     { font-family: monospace, serif; font-size: 1em; }
 
 blockquote {
-  font-style: italic; 
-  border-left: 2px solid tomato; 
-  padding-left: 10px; 
-}
+    font-style: italic; 
+    border-left: 2px solid tomato; 
+    padding-left: 10px; 
+    }
 
 blockquote:before { 
-  content: "\201C"; 
-  display: inline-block; 
-  padding-: .4em; 
-}
+    content: "\201C"; 
+    display: inline-block; 
+    padding-: .4em; 
+    }

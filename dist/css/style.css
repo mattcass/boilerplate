@@ -240,8 +240,19 @@ strong {
 em {
   font-style: italic; }
 
+a, .a {
+  -webkit-transition: 0.4ms ease;
+          transition: 0.4ms ease;
+  font-weight: normal;
+  text-decoration: underline; }
+  a:hover, .a:hover {
+    color: #000000; }
+
 a, a:visited {
   text-decoration: underline; }
+
+.a--clean {
+  text-decoration: none; }
 
 a:hover {
   text-decoration: none; }
@@ -264,7 +275,7 @@ blockquote {
 blockquote:before {
   content: "\201C";
   display: inline-block;
-  padding-: .4em; }
+  padding-: 0.4em; }
 
 /* Components
    ==================================== */
@@ -280,9 +291,10 @@ blockquote:before {
 .button-primary {
   background: #f22b11;
   color: #ffe37a;
-  transition: background 0.25s; }
+  -webkit-transition: background 0.4ms ease;
+          transition: background 0.4ms ease; }
   .button-primary .button-primary:hover {
-    background: #dd240c; }
+    background: #dd210c; }
 
 /* ===========================================
    List styling (ul, ol, dl)
@@ -315,10 +327,13 @@ textarea {
 /* ===========================================
    Main Styling 
    =========================================== */
-.row > [class^="w-"] {
+.demo-grid .row > [class^="w-"] {
   box-shadow: inset 0 0 10px tomato;
   margin-bottom: 1em;
   text-align: center; }
+
+.header {
+  padding: 3em; }
 
 /* ===========================================
    Footer styling

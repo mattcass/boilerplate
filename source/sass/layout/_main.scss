@@ -2,8 +2,14 @@
    Main Styling 
    =========================================== */
 
- .row > [class^="w-"] {
+.demo-grid .row > [class^="w-"] {
  	box-shadow: inset 0 0 10px tomato;
    	margin-bottom: 1em;
    	text-align: center;
-}
+    }
+
+
+.header {
+    padding: $block_padding;
+    }
+
