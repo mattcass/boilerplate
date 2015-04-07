@@ -240,16 +240,13 @@ strong {
 em {
   font-style: italic; }
 
-a, .a {
-  -webkit-transition: 0.4ms ease;
-          transition: 0.4ms ease;
+a {
+  -webkit-transition: color 0.4ms ease;
+          transition: color 0.4ms ease;
   font-weight: normal;
   text-decoration: underline; }
-  a:hover, .a:hover {
+  a:hover {
     color: #000000; }
-
-a, a:visited {
-  text-decoration: underline; }
 
 .a--clean {
   text-decoration: none; }

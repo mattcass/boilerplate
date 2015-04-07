@@ -22,7 +22,7 @@ strong  {   font-weight: bold;                          }
 em      {   font-style: italic;                         }
 
 a {
-    transition: $base_transition;
+    transition: color $base_transition;
     font-weight: normal;
     text-decoration: underline;
 
